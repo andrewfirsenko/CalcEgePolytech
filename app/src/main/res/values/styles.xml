@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackgroundApp</item>
+    </style>
+
+    <style name="ThemeResult" parent="@style/Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/colorBackgroundApp</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+
+
+    <style name="MyStyle.ButtonMain">
+        <item name="android:background">@drawable/button_main</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyStyle"></style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyStyle.TabText" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">22dp</item>
+    </style>
+
+
+    <style name="MyStyle.TextTitle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/colorTextApp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="MyStyle.EditText">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/edit_text</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+</resources>
